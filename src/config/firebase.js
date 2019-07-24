@@ -1,15 +1,7 @@
 import * as firebase from "firebase"
 import "firebase/firestore"
 
-var firebaseConfig = {
-    apiKey: "AIzaSyB1tPTdwBNPaK1kWDJM_SFdEyYxy8-vL4A",
-    authDomain: "testingproject03.firebaseapp.com",
-    databaseURL: "https://testingproject03.firebaseio.com",
-    projectId: "testingproject03",
-    storageBucket: "",
-    messagingSenderId: "362840763684",
-    appId: "1:362840763684:web:c064ae6dffa4eb1b"
-};
+var firebaseConfig = {};
 
 firebase.initializeApp(firebaseConfig);
 
